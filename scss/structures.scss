@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 16px;
+}
+
+@font-face {
+  font-family: GS;
+  src: url(/fonts/GillSans.ttc);
+}
+
+@font-face {
+  font-family: PN;
+  src: url(/fonts/Proxima-Nova-Thin.otf);
+}
+
+@font-face {
+  font-family: PC;
+  src: url(/fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+.site-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  min-height: 500px;
+}

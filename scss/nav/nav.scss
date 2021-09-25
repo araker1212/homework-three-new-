@@ -1,0 +1,36 @@
+nav {
+  position: fixed;
+  height: 92px;
+  width: 60%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: white solid;
+
+  .logo {
+    height: 42px;
+    width: 96px;
+  }
+
+  .links {
+    a {
+      text-decoration: none;
+      text-transform: lowercase;
+      height: 42px;
+      color: white;
+      font-size: 15px;
+      font-family: GS;
+      width: 300px;
+      justify-content: space-evenly;
+    }
+
+    span {
+      color: #79addc;
+    }
+  }
+}

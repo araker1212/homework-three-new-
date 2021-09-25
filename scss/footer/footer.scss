@@ -1,0 +1,32 @@
+footer {
+  width: 1280px;
+  height: 100px;
+  background-color: #79addc;
+  margin: 0 auto 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 150px;
+
+  img {
+    width: 96px;
+    height: 42px;
+  }
+  .copyright {
+    color: white;
+    font-family: GS;
+    font-size: 12px;
+  }
+
+  .media {
+    width: 200px;
+    height: 30px;
+
+    a {
+      font-size: 12px;
+      font-family: GS;
+      text-decoration: none;
+      color: white;
+    }
+  }
+}
