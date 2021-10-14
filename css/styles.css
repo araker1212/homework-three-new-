@@ -37,6 +37,11 @@ p {
   margin: 0 auto;
   min-height: 500px;
 }
+.site-container h1 {
+  font-size: 60px;
+  font-family: PN;
+  margin-left: 140px;
+}
 
 nav {
   position: fixed;
@@ -133,10 +138,19 @@ nav .links span {
   margin-top: 75px;
   margin-left: 574px;
 }
-.home .promo-tours {
+
+.promo-tours {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: -50px;
+}
+.promo-tours .promo1 {
   min-height: 304px;
   width: 236px;
-  margin-top: -50px;
   background-image: url(/images/tour-01.jpg);
   opacity: 1.2;
   background-position: center;
@@ -146,22 +160,21 @@ nav .links span {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-left: 231px;
 }
-.home .promo-tours .place {
+.promo-tours .promo1 .place {
   color: white;
   font-size: 60px;
   font-family: PC;
   padding: 37px 0px 0px 0px;
   text-transform: uppercase;
 }
-.home .promo-tours .price {
+.promo-tours .promo1 .price {
   color: white;
   font-size: 30px;
   font-family: PC;
   text-transform: lowercase;
 }
-.home .promo-tours .learnMore {
+.promo-tours .promo1 .learnMore {
   width: 133px;
   background-color: #79addc;
   border-radius: 20px;
@@ -180,105 +193,214 @@ nav .links span {
   margin-left: 52px;
   margin-top: 37px;
 }
-.home .booking {
-  min-height: 500px;
-  padding-top: 50px;
-  padding-left: 10px;
+.promo-tours .promo2 {
+  min-height: 304px;
+  width: 236px;
+  background-image: url(/images/tour-02.jpg);
+  opacity: 1.2;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
-.home .booking .bookingWrapper {
-  max-width: 818px;
-  margin: 0 auto;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-.home .booking .bookingWrapper h1 {
+.promo-tours .promo2 .place {
+  color: white;
   font-size: 60px;
   font-family: PC;
+  padding: 37px 0px 0px 0px;
+  text-transform: uppercase;
 }
-.home .booking .bookingWrapper .long-input {
+.promo-tours .promo2 .price {
+  color: white;
+  font-size: 30px;
+  font-family: PC;
+  text-transform: lowercase;
+}
+.promo-tours .promo2 .learnMore {
+  width: 133px;
+  background-color: #79addc;
+  border-radius: 20px;
+  color: #fff;
+  padding: 11px 21px;
+  font-size: 15px;
+  font-family: GS;
+  border: none;
+  text-transform: uppercase;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 52px;
+  margin-top: 37px;
+}
+.promo-tours .promo3 {
+  min-height: 304px;
+  width: 236px;
+  background-image: url(/images/tour-03.jpg);
+  opacity: 1.2;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.promo-tours .promo3 .place {
+  color: white;
+  font-size: 60px;
+  font-family: PC;
+  padding: 37px 0px 0px 0px;
+  text-transform: uppercase;
+}
+.promo-tours .promo3 .price {
+  color: white;
+  font-size: 30px;
+  font-family: PC;
+  text-transform: lowercase;
+}
+.promo-tours .promo3 .learnMore {
+  width: 133px;
+  background-color: #79addc;
+  border-radius: 20px;
+  color: #fff;
+  padding: 11px 21px;
+  font-size: 15px;
+  font-family: GS;
+  border: none;
+  text-transform: uppercase;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 52px;
+  margin-top: 37px;
+}
+
+.booking {
   max-width: 818px;
+  padding-top: 50px;
+  padding-left: 10px;
+  margin-left: 75px;
+}
+.booking .longInput {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   padding-bottom: 20px;
 }
-.home .booking .bookingWrapper .long-input input {
+.booking .longInput input {
   width: 300px;
   height: 58px;
-  border: solid #79addc;
-  border-width: 1px;
+  border: 1px solid #79addc;
 }
-.home .booking .bookingWrapper .long-input2 {
-  max-width: 818px;
+.booking .longInput input #email {
+  width: 453px;
+}
+.booking .longInput2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   padding-bottom: 20px;
 }
-.home .booking .bookingWrapper .long-input2 input {
+.booking .longInput2 input {
   width: 300px;
   height: 58px;
-  border: solid #79addc;
-  border-width: 1px;
+  border: 1px solid #79addc;
 }
-.home .booking .bookingWrapper .checkin {
+.booking .checkIn {
   max-width: 818px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  margin-left: -75px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   padding-bottom: 20px;
   font-family: GS;
 }
-.home .booking .bookingWrapper .checkin input {
+.booking .checkIn input {
   width: 300px;
   height: 58px;
   border: solid #79addc;
   border-width: 1px;
 }
-.home .booking .bookingWrapper .checkOut {
+.booking .checkOut {
   max-width: 818px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  margin-left: -75px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   padding-bottom: 20px;
   font-family: GS;
 }
-.home .booking .bookingWrapper .checkOut input {
+.booking .checkOut input {
   width: 300px;
   height: 58px;
   border: solid #79addc;
   border-width: 1px;
 }
-.home .booking .bookingWrapper .messageBox {
+.booking .people {
+  margin-left: 25px;
+  max-width: 818px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 20px;
+  font-family: GS;
+}
+.booking .people input {
+  width: 103px;
+  height: 58px;
+  border: 1px solid #79addc;
+}
+.booking .messageBox {
+  margin-left: 75px;
+}
+.booking .messageBox input {
   width: 100%;
-  height: 300px;
+  height: 150px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid #79addc;
 }
-.home .booking .bookingWrapper .bookingSubmit {
+.booking .bookingSubmit {
+  margin-left: 75px;
   width: 100%;
   background-color: #79addc;
   border-radius: 20px;
@@ -288,52 +410,20 @@ nav .links span {
   font-family: GS;
   border: none;
   text-transform: uppercase;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-.home .booking .bookingWrapper .long-input {
-  max-width: 818px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding-bottom: 20px;
-}
-.home .booking .bookingWrapper .long-input input {
-  width: 300px;
-  height: 58px;
-  border: solid #79addc;
-  border-width: 1px;
-}
-.home .booking .bookingWrapper .long-input2 {
-  max-width: 818px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding-bottom: 20px;
-}
-.home .booking .bookingWrapper .long-input2 input {
-  width: 300px;
-  height: 58px;
-  border: solid #79addc;
-  border-width: 1px;
+  margin-top: 37px;
 }
 
 footer {
-  width: 1280px;
-  height: 100px;
+  width: 100%;
+  height: 92px;
+  margin-left: auto;
+  margin-right: auto;
   background-color: #79addc;
   margin: 0 auto 0 auto;
   display: -webkit-box;
@@ -346,6 +436,7 @@ footer {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 0 150px;
+  margin-top: 50px;
 }
 footer img {
   width: 96px;
@@ -356,13 +447,9 @@ footer .copyright {
   font-family: GS;
   font-size: 12px;
 }
-footer .media {
-  width: 200px;
-  height: 30px;
-}
-footer .media a {
-  font-size: 12px;
-  font-family: GS;
-  text-decoration: none;
-  color: white;
+footer .media img {
+  -webkit-filter: white;
+          filter: white;
+  height: 23px;
+  width: 23px;
 }

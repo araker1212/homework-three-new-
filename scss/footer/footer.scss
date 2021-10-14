@@ -1,12 +1,15 @@
 footer {
-  width: 1280px;
-  height: 100px;
+  width: 100%;
+  height: 92px;
+  margin-left: auto;
+  margin-right: auto;
   background-color: #79addc;
   margin: 0 auto 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 150px;
+  margin-top: 50px;
 
   img {
     width: 96px;
@@ -19,14 +22,10 @@ footer {
   }
 
   .media {
-    width: 200px;
-    height: 30px;
-
-    a {
-      font-size: 12px;
-      font-family: GS;
-      text-decoration: none;
-      color: white;
+    img {
+      filter: grayscale(white);
+      height: 23px;
+      width: 23px;
     }
   }
 }
