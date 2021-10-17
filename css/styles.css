@@ -22,15 +22,15 @@ p {
 
 @font-face {
   font-family: GS;
-  src: url(/fonts/GillSans.ttc);
+  src: url(../fonts/GillSans.ttc);
 }
 @font-face {
   font-family: PN;
-  src: url(/fonts/Proxima-Nova-Thin.otf);
+  src: url(../fonts/Proxima-Nova-Thin.otf);
 }
 @font-face {
   font-family: PC;
-  src: url(/fonts/ProximaNovaScOsfExtraCondensed.ttf);
+  src: url(../fonts/ProximaNovaScOsfExtraCondensed.ttf);
 }
 .site-container {
   max-width: 1280px;
@@ -90,8 +90,8 @@ nav .links span {
 .home .hero {
   width: 1280px;
   height: 500px;
-  background-image: url(/images/hero.jpg);
-  opacity: 1.5;
+  background-image: url(../images/hero.jpg);
+  opacity: 0.75;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -151,8 +151,8 @@ nav .links span {
 .promo-tours .promo1 {
   min-height: 304px;
   width: 236px;
-  background-image: url(/images/tour-01.jpg);
-  opacity: 1.2;
+  background-image: url(../images/tour-01.jpg);
+  opacity: 0.75;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -196,8 +196,8 @@ nav .links span {
 .promo-tours .promo2 {
   min-height: 304px;
   width: 236px;
-  background-image: url(/images/tour-02.jpg);
-  opacity: 1.2;
+  background-image: url(../images/tour-02.jpg);
+  opacity: 0.75;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -241,8 +241,8 @@ nav .links span {
 .promo-tours .promo3 {
   min-height: 304px;
   width: 236px;
-  background-image: url(/images/tour-03.jpg);
-  opacity: 1.2;
+  background-image: url(../images/tour-03.jpg);
+  opacity: 0.75;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
